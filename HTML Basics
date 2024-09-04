@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website Title Name</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Headins Elements</h1>
+        <h2>Heading2</h2>
+        <h3>Heading3</h3>
+        <h4>Heading4</h4>
+        <h5>Heading5</h5>
+        <h6>Heading6</h6>
+        <p>Lorem ipsum, dolor&nbsp; sit amet consectetur adipisicing elit. Cupiditate magnam corrupti architecto totam quaerat! Excepturi ipsa omnis ullam praesentium? Nihil voluptas dolores totam repudiandae esse aperiam odio quos magnam nisi!</p>
+    <div>Divisin: Div is a block level element,adding new line and 100% width</div>
+<span>span: span is an inline element,content background space only</span>    
+<br>
+<hr>
+<img height=150px src="virat image.jpg">
+<header>Header semantic element </header>
+<section>section semantic element </section>
+<footer>Footer Semantic element</footer>
+</div>
+
+</body>
+</html>
