@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <fieldset>
+       
+       <legend style="color: brown">Registration form</legend>
+       
+    
+    <form action="responseform.html" method="post">
+        <table>
+            <tr>
+                <td>first name</td>
+                <td>
+                    <input type="text" /*placeholder="Enter your Names"*/ name="fname" required>
+                </td>
+                <td>
+                    <span>(**Enter your firstname**)</span>
+                </td>
+            </tr>
+            <tr>
+                <td>last name</td>
+                <td>
+                    <input type="text" name="lname" required>
+                </td>
+                <td>
+                    <span>(**Enter your lastname**)</span>
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input type="password" name="upwd" required minlength="8">
+                </td>
+                <td>
+                    <span>(**Enter valid password**)</span>
+                </td>
+            </tr>
+            <tr>
+                <td>email</td>
+                <td>
+                    <input type="email" name="uemail" required>
+                </td>
+                <td>
+                    <span>(**Enter Email**)</span>
+                </td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td>
+                    <input type="tel" name="uphone"  required minlength="10" maxlength="10">
+                </td>
+                <td>
+                    <span>(**Enter your mobile number**)</span>
+                </td>
+            </tr>
+            <!-- <tr>
+                <td>Age</td>
+                <td>
+                    <input type="number" name="uAge" required min="18">
+                </td>
+                <td>
+                    <span>(**Enter your Age**)</span>
+                </td>
+            </tr> -->
+            <tr>
+                
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="Gender" value="male" required>male
+                    <input type="radio" name="Gender" value="female" required>female
+
+                </td>
+                <td>
+                    <span>(**select your Gender**)</span>
+                </td>
+            </tr>
+            <tr>
+                <td>skills</td>
+                <td>
+                    <input type="checkbox" name="skills"value="c">     c language
+                    <input type="checkbox" name="skills"value="c++">   c++ language
+                
+                </td>
+                <td>
+                    <span>(**select your skills**)</span>
+                </td>
+            </tr>
+            <tr>
+             <td></td>
+                <td>
+                    <input type="checkbox" name="skills"value="java">   full stack java
+                    <input type="checkbox" name="skills"value="dotnet"> dot net language
+                </td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td>
+                    <input type="date" name="udob" required>
+                </td>
+                <td>
+                    <span>(**select date of birth**)</span>
+                </td>
+            </tr>
+            <tr>
+                <td>pref time</td>
+                <td>
+                    <input type="time" name="preftime">
+                </td>
+                <td>
+                    <span>(**select preftime**)</span>
+                </td>
+            </tr>
+            <tr>
+                <td>choose color</td>
+                <td>
+                    <input type="color" name="prefcolor">
+                </td>
+                <td>
+                    <span>(**select prefcolor**)</span>
+                </td>
+            </tr>
+            <tr>
+                <td>country</td>
+                <td>
+                <select name="ucountry">
+                <option value="ind">India</option>
+                <option value="uk">Landon</option>
+                <option value="usa">America</option>
+            </td>
+            <td>(**select country**)</td> 
+                </select>
+            </tr>
+            <tr>
+                <td>Address</td>
+           <td><textarea name="uaddress"></textarea></td>  
+           <td>(**write address**)</td>  
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Register">
+                </td>
+           
+                <td>
+                    <input type="reset" value="clear">
+                </td>
+            </tr>
+        </table>
+    </form>
+    </fieldset>
+</body>
+</html>
